@@ -1,5 +1,6 @@
 // Update your applicationid and javascript key of your parse app in the below.
-// Parse.initialize('APPLICATION_ID', 'JAVASCRIPT_KEY');
+Parse.initialize('myAppId', 'myMasterKey');
+Parse.serverURL = "http://localhost:1337/parse"
 
 var TodoMVC = React.createClass({
   mixins: [ParseReact.Mixin],
